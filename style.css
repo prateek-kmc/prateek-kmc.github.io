@@ -31,8 +31,27 @@ a { color:inherit; text-decoration:none; }
 .hero-card h2 { margin:0; font:700 21px Manrope,sans-serif; }
 .hero-card > p:not(.card-label) { margin:4px 0 6px; color:var(--muted); font-size:13px; }
 .hero-card-line { border-top:1px solid var(--line); margin-bottom:16px; }
-.mini-detail { display:flex; justify-content:space-between; gap:12px; margin:11px 0; font-size:11px; }
-.mini-detail span { color:var(--muted); }.mini-detail strong { font-weight:600; text-align:right; }
+.mini-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    margin: 11px 0;
+    font-size: 11px;
+}
+
+.mini-detail span {
+    color: var(--muted);
+    flex: 0 0 78px;
+}
+
+.mini-detail strong {
+    font-weight: 600;
+    text-align: right;
+    flex: 1;
+    min-width: 0;
+    line-height: 1.5;
+}
 .section { padding-top:84px; padding-bottom:84px; }
 .section-tint { background:var(--soft); }
 .narrow { max-width:790px; }
