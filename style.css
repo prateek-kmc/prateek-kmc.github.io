@@ -72,10 +72,10 @@ code { background:#f0f2f4; padding:2px 5px; border-radius:3px; }
     display: block;
     border-radius: 10px;
 }
-.hero-card h2 + p {
-    margin-bottom: 1px;
+.hero-card > h2 + p:not(.card-label) {
+    margin-bottom: 4px;
 }
 
-.hero-card h2 + p + p {
+.hero-card > h2 + p + p:not(.card-label) {
     margin-top: 0;
 }
