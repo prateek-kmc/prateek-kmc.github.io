@@ -73,7 +73,7 @@ code { background:#f0f2f4; padding:2px 5px; border-radius:3px; }
     border-radius: 10px;
 }
 .hero-card h2 + p {
-    margin-bottom: 4px;
+    margin-bottom: 1px;
 }
 
 .hero-card h2 + p + p {
